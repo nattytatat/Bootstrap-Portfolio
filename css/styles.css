@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --border-radius-small:10px;
+    --top-padding:4em;
+    --y-padding:4em;
+    --light-blue:#F3F6FA;
+    --dark-blue:#152C4F;
+    --white:#ffffff;
+    --yellow:#FFC914;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+    font-size: 16px;
+    width: 90%;
+    max-width: 1400px;
+    margin: 0 auto;
+    color: var(--dark-blue);
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0;
+    font-family: 'Sumana', sans-serif;
+  }
+  
+  h1 {
+    font-size: 40px;
+  }
+  
+  h2 {
+    font-size: 26px;
+  }
+  
+  p {
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 1em;
+  }
+  
+  a {
+    color: var(--dark-blue);
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  /* Bootstrap overwrites */
+
+  a:hover {
+    color: inherit;
+  }
+
+  .navbar {
+    padding: 10px 0;
+  }
+
+  .navbar-brand {
+    font-size: 40px;
+    padding: 0;
+    color: var(--dark-blue)!important;
+  }
+
+  .nav-link {
+    color: var(--dark-blue)!important;
+    padding: 0 15px!important;
+  }
+
+
+  .navbar-toggler{
+    border: 0!important;
+  }
+
+  .navbar-toggler-icon {
+    stroke:rgba(21,44,79,1)!important;
+
+  }
+
+
+  .btn-primary {
+  background-color: var(--yellow);
+  padding: 15px 30px;
+  border: 0;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--dark-blue);
+  margin-left: 10px;
+  }
+
+  .btn-primary:hover {
+    background-color: var(--dark-blue);
+    color: var(--yellow);
+  }
+
+  .btn-primary:focus, .btn-primary:active {
+    background-color: var(--dark-blue);
+    border:0;
+    box-shadow: none;
+  }
+  
