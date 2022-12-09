@@ -52,7 +52,7 @@
   a {
     color: var(--dark-blue);
     font-weight: bold;
-    text-decoration: none;
+    text-decoration: none!important;
   }
 
   img {
@@ -191,6 +191,23 @@
     width: 100%;
     border-radius: var(--border-radius-small);
     overflow: hidden;
+  }
+
+  .card-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: rgba(24, 44, 79, 0.5);
+    transition: 500ms;
+  }
+
+  .card-body:hover {
+    background-color: transparent;
+  }
+
+  .card-body h5 {
+    color: var(--white);
   }
 
   #one-project {
