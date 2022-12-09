@@ -241,3 +241,20 @@
   justify-content: center;
   font-weight: normal;
 }
+
+/* Footer */
+
+footer a {
+  font-size: 12px;
+  padding: 5px 15px;
+  background-color: var(--yellow);
+  margin: 0 5px;
+  border-radius: 30px;
+  transition: all 300ms;
+}
+
+footer a:hover {
+  background-color: var(--dark-blue);
+  color: var(--yellow);
+  box-shadow: 0 0 1px 2px rgba(24, 44, 79, 0.5);
+}
