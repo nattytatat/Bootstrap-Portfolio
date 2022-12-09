@@ -5,6 +5,7 @@
   :root {
     --border-radius-small:10px;
     --top-padding:4em;
+    --bottom-padding:4em;
     --y-padding:4em;
     --light-blue:#F3F6FA;
     --dark-blue:#152C4F;
@@ -125,6 +126,9 @@
     align-items: center!important;
     justify-content: center!important;
     padding: 10em 1em!important;
+    margin-bottom: 0!important;
+    background-color: var(--dark-blue);
+    border-radius: var(--border-radius-small);
 
   }
 
@@ -158,4 +162,50 @@
     height: 100px;
     object-fit: cover;
   }
+
+  .content-wrapper {
+    padding-top: var(--top-padding);
+  }
+
+  /* About Us section */
+
+  #about, #contact {
+    background-color: var(--light-blue);
+    border-radius: var(--border-radius-small);
+    padding: var(--y-padding) 0;
+  }
+  
+  #about h3, #work h3, #contact h3 {
+    text-align: center;
+  }
+
+  /* Portfolio Section */
+
+  .card {
+    height: 50vh;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    width: 100%;
+    border-radius: var(--border-radius-small);
+    overflow: hidden;
+  }
+
+  #one-project {
+    grid-area: smallProject1;
+    background-image:url('https://picsum.photos/id/17/1000/1000');
+  }
+  
+  #two-project {
+    grid-area: smallProject2;
+    background-image:url('https://picsum.photos/id/500/1000/1000');
+  }
+  
+  #three-project {
+    grid-area: smallProject3;
+    background-image: url('https://picsum.photos/id/349/1000/1000');
+  }
+
 
