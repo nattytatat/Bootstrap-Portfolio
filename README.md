@@ -31,4 +31,4 @@ MIT License
 
 ## Link
 
-- https://nattytatat.github.io/portfolio-challenge-module-2/
+- https://nattytatat.github.io/Bootstrap-Portfolio/
