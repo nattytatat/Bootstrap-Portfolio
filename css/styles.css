@@ -77,7 +77,6 @@
 
   .nav-link {
     color: var(--dark-blue)!important;
-    padding: 0 15px!important;
   }
 
 
@@ -228,7 +227,7 @@
 /* Contact */
 
 #contact {
-  margin-top: 2em;
+  margin-top: 2.3em;
 }
 
 #contact a {
