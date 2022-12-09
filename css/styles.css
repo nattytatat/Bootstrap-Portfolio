@@ -90,7 +90,7 @@
   }
 
   .navbar-light .navbar-toggler-icon {
-    background-image: url("/images/burger-menu.svg")!important;
+    background-image: url("../images/burger-menu.svg")!important;
   }
 
   .navbar-toggler-icon {
