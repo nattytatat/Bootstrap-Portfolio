@@ -177,13 +177,13 @@
 
   /* About Us section */
 
-  #about, #contact {
+  .about, #contact {
     background-color: var(--light-blue);
     border-radius: var(--border-radius-small);
     padding: var(--y-padding) 0;
   }
   
-  #about h3, #work h3, #contact h3 {
+  .about h3, #work h3, #contact h3 {
     text-align: center;
   }
 
