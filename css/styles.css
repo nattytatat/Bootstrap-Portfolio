@@ -225,4 +225,15 @@
     background-image: url('https://picsum.photos/id/349/1000/1000');
   }
 
+/* Contact */
 
+#contact {
+  margin-top: 2em;
+}
+
+#contact a {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  font-weight: normal;
+}
